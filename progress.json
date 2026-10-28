@@ -1,0 +1,278 @@
+{
+ "prog": {
+  "dit": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "ovgu": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "mannheim": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "ilmenau": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "fau": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "paderborn": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "augsburg": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "passaucs": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "passauaie": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "hildesheim": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "aalen": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "marburg": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "btu": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "kassel": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "dortmund": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "trier": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "heilbronn": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "thi": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "furtwangen": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "hsbi": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "muenster": {
+   "status": "Not started",
+   "steps": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ },
+ "tasks": {}
+}

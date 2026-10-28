@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Germany MSc Tracker · Summer 2027</title>
+<meta name="description" content="Raghul S — application tracker for English-taught AI / Data Science master's programmes in Germany open for Summer 2027.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f6feb'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div>
+      <p class="eyebrow">Germany MSc · Summer Semester 2027</p>
+      <h1 id="who">Application Tracker</h1>
+      <p class="sub" id="degree"></p>
+    </div>
+    <div class="top-right">
+      <div class="countdown" id="countdown"></div>
+    </div>
+  </div>
+  <nav class="wrap tabs" id="tabs" aria-label="Sections">
+    <button data-tab="overview" class="on">Overview</button>
+    <button data-tab="timeline">Timeline</button>
+    <button data-tab="unis">Universities</button>
+    <button data-tab="ects">ECTS mapping</button>
+    <button data-tab="courses">Courses &amp; marks</button>
+    <button data-tab="tasks">Tasks</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section id="overview" class="panel on">
+    <div class="kpis" id="kpis"></div>
+    <div class="grid2">
+      <div class="card">
+        <h2>Next deadlines</h2>
+        <ol class="next" id="nextList"></ol>
+      </div>
+      <div class="card">
+        <h2>Profile at a glance</h2>
+        <dl class="facts" id="facts"></dl>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Progress by university</h2>
+      <div id="progBars"></div>
+    </div>
+  </section>
+
+  <section id="timeline" class="panel">
+    <div class="card">
+      <h2>Deadlines and milestones</h2>
+      <p class="muted">Bar = application window (from opening to deadline). ◆ = deadline. ○ = recommended submit-by date when earlier than the deadline. Dashed line = today. Colours: <span style="color:var(--accent)">blue</span> = no tuition, <span style="color:var(--warn)">amber</span> = tuition exception, green = admitted, red = rejected.</p>
+      <div class="svgwrap" id="tl"></div>
+    </div>
+  </section>
+
+  <section id="unis" class="panel">
+    <div class="filters" id="filters">
+      <label>Tier <select data-f="tier"><option value="">All</option><option>Ambitious</option><option>Target</option><option>Safer</option></select></label>
+      <label>Status <select data-f="status"><option value="">All</option></select></label>
+      <label class="chk"><input type="checkbox" data-f="free"> No tuition only</label>
+      <label class="chk"><input type="checkbox" data-f="moi"> MOI accepted only</label>
+      <label class="chk"><input type="checkbox" data-f="hideSkipped"> Hide skipped</label>
+    </div>
+    <div id="cards" class="cards"></div>
+  </section>
+
+  <section id="ects" class="panel">
+    <div class="card">
+      <h2>ECTS by subject area</h2>
+      <p class="muted" id="factorNote"></p>
+      <div id="areaBars"></div>
+    </div>
+    <div class="card">
+      <h2>Requirement check per university</h2>
+      <div class="tablewrap"><table class="matrix" id="matrix"></table></div>
+    </div>
+  </section>
+
+  <section id="courses" class="panel">
+    <div class="card">
+      <h2>Semester-wise courses and marks</h2>
+      <p class="muted">Grades: S = 10, A = 9, B = 8, C = 7, D = 6, E = 5 (lowest pass). All 42 courses passed at the first attempt. Click a course to see its syllabus units.</p>
+      <div id="sems"></div>
+    </div>
+  </section>
+
+  <section id="tasks" class="panel">
+    <div class="card">
+      <h2>Shared tasks (all applications)</h2>
+      <ul class="tasklist" id="taskList"></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <div class="io">
+    <button id="exportBtn">Export progress (JSON)</button>
+    <label class="filebtn">Import progress<input type="file" id="importFile" accept="application/json"></label>
+    <button id="resetBtn" class="ghost">Reset local progress</button>
+  </div>
+  <p class="muted" id="footNote"></p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
